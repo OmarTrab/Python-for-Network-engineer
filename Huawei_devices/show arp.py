@@ -3,7 +3,7 @@ from netmiko import ConnectHandler         #Let's import Netmiko library
 
 device ={
     'device_type': 'huawei',
-    'host': '10.235.98.177',
+    'host': '10.0.0.1',
     'username': 'user1',
     'password': 'Test123',
     'port':'22'
